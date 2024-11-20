@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "RocknRoll One", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: #D32F2F;
+    padding: 16px 0;
+}
+
+header h1{
+    margin-left: 8px;
+    font-size: 50px;
+}
+
+header nav li{
+    display: inline;
+    font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #D32F2F;
+    margin-right: 8px;
+}
+
+header nav li :hover{
+    color: #FFD700;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    margin: auto;
+    width: 90vw;
+}
+
+body p{
+    margin-left: 16px;
+    margin-top: 0px;
+}
+
+body h2{
+    margin-top: 80px;
+}
+
+body h2,
+body h3{
+    margin-left: 8px;
+}
+
+#history h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-image: url(https://i.scdn.co/image/ab6761610000e5eb32845b1556f9dbdfe8ee6575);
+    background-size: contain;
+    color: #D32F2F;
+}
+
+.slider{
+    width: 96%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.background-imgs{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.background-imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.slider-img {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.7 ease;
+}
+
+.background-imgs .slider-img:first-child, .background-imgs .slider-img:last-child{
+    height: 300px;
+}
+
+.background-imgs .slider-img:nth-child(2), .background-imgs .slider-img:nth-child(7){
+    height: 350px;
+}
+
+.background-imgs .slider-img:nth-child(3), .background-imgs .slider-img:nth-child(6){
+    height: 400px;
+}
+
+.background-imgs .slider-img:nth-child(4), .background-imgs .slider-img:nth-child(5){
+    height: 450px;
+}
+
+
+.slider-img:hover{
+    height: 200%;
+    width: 250%;
+    transition: width 1.0s;
+}
+
+.slider-img .details p {
+    opacity: 0; 
+    transition: opacity 1.5s ; 
+    font-size: small;
+}
+
+.slider-img:hover .details p {
+    opacity: 1;
+}
+
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video{
+    width: 60%;
+    margin-left: 245px;
+    margin-top: 20px;
+}
+
+.videos h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #0a0a0a;
+}
+
+.contact-methods{
+    display: grid;
+    width: 450px;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h3{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.contact-methods textarea{
+    height: 150px;
+    resize: none;
+}
+
+.sites li a img{
+    height: 30px;
+}
+
+.sites h3{
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.site li a{
+    text-decoration: none;
+}
+
+.site ul li{
+    list-style-type: none;
+}
+
+.contact-methods input:focus,
+.contact-methods textarea:focus{
+    outline-color: #D32F2F;
+}
+
+.contact-methods button{
+    border:  none;
+    cursor: pointer;
+    width: 350px;
+    height: 30px;
+    background-color: #D32F2F;
+}
+
+.contact-methods button:hover{
+    background-color: #eb0000;
+
+}
+
+footer{
+    height: 59vh;
+}
+
+.final{
+    margin-top: 40px;
+}
